@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Kanit";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Kanit"), url("/public/fonts/Kanit/Kanit-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Kanit";
+    font-weight: 600;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Kanit"), url("/public/fonts/Kanit/Kanit-SemiBold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Kanit";
+    font-weight: 700;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Kanit"), url("/public/fonts/Kanit/Kanit-Bold.ttf") format("ttf");
+}
