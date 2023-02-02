@@ -3,10 +3,10 @@
   <SliderHome/>
   <AuthComponent/>
   <div class="d-flex flex-row justify-content-around">
-    <HomeCard title="Lorem Ipsum is simply " paragraph="Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum." icon="logo"/>
-    <HomeCard title="Lorem Ipsum is simply " paragraph="Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum." icon="logo"/>
-    <HomeCard title="Lorem Ipsum is simply " paragraph="Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum." icon="logo"/>
-    <HomeCard title="Lorem Ipsum is simply " paragraph="Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum." icon="logo"/>
+    <HomeCard title="Lorem Ipsum is simply " paragraph="Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum." icon="../assets/star-green-light.svg" color ="#FFF5CC"/>
+    <HomeCard title="Lorem Ipsum is simply " paragraph="Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum." icon="../assets/star-red.svg" color ="#CAFDF5"/>
+    <HomeCard title="Lorem Ipsum is simply " paragraph="Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum." icon="../assets/star-bleu.svg" color ="#FFE9D5"/>
+    <HomeCard title="Lorem Ipsum is simply " paragraph="Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum." icon="../assets/star-yellow.svg" color ="#D8FBDE"/>
   </div>
 </div>
 </template>
