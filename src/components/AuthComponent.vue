@@ -33,10 +33,12 @@
             </div>
             <input type="text" class="form-control" placeholder="Saisir votre mot de passe"  aria-label="Large" aria-describedby="inputGroup-sizing-sm">
           </div>
-
+            <div style="text-align:center;">
             <button type="button" class="btn btn-primary col-3">Se connecter<img class="px-3"   src="../assets/Rectangle.svg"/><img src="../assets/flesh.svg"/></button>
+            <a class="forget-pass" id="show-modal" @click="showModal = true">Mot de passe oublié ?</a>
+          </div>
         </div> 
-        <span class="forget-pass" id="show-modal" @click="showModal = true">Mot de passe oublié ?</span>
+        
       </div>
     </div>
   </div>
@@ -47,10 +49,11 @@
             <div class="modal-container">
 
               <div class="modal-header">
-                <slot name="header">
+              <slot name="header">
                   Mot de passe oublié
                 </slot>
-                <div @click="showModal = false"><img src="../assets/close.svg"/></div>
+                
+                <img @click="showModal = false" src="../assets/close.svg"/>
               </div>
 
               <div class="modal-body">
@@ -131,6 +134,7 @@ export default {
   background-color: rgba(0, 0, 0, 0.5);
   display: table;
   transition: opacity 0.3s ease;
+  border-radius: 12px;
 }
 
 .modal-wrapper {
@@ -294,5 +298,13 @@ label{
     color: #FFFFFF;
     margin-top: 56px;
 }
-
+.flex_container {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  
+  justify-content: center;
+  align-items: center;
+}
 </style>
